@@ -3,7 +3,7 @@ title: "Ali"
 about:
   id: template-area
   template: jolla
-  image: profile.png
+  image: 262501422_295937222542969_1901183497554186958_n.png
   links:
     - icon: twitter
       text: twitter
