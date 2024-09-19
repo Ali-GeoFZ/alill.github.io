@@ -1,8 +1,8 @@
 ---
 title: "Random report"
 author: 
-  - name: Jane Doe
-    orcid: 0000-0001-2345-6789
+  - name: Ali Mohammed
+    orcid: 0000-1254-7896-678X
     corresponding: true
     email: Jane.Doe@example.org
     
@@ -13,6 +13,13 @@ author:
 # Instructions for the exercise
 
 1. Move the file to the top level of your repository
+ name: Install Python and Dependencies
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - run: pip install -r requirements.txt 
+
 2. Update the file _quarto.yml in your repository to include the report in your webpage
 3. Load a dataset from https://github.com/Hezel2000/GeoCosmoChemDataAndTools/tree/main/csv
 4. Update the YAML header of this file
@@ -57,7 +64,13 @@ The most common command to create a uniform distribution of random numbers in R 
 By default, `runif()` samples the range from 0 to 1: 
 
 ``` {python}
-file_path = https://github.com/Hezel2000/GeoCosmoChemDataAndTools/tree/main/csv
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataAndTools/refs/heads/main/csv/Banda%20Arc.csv
+columns = df.keys()
+plt.plot
 
 ``` {r}
 
